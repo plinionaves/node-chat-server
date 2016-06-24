@@ -7,16 +7,32 @@
     ----------------------------------------------------------------- 
 
 
-Welcome to your Node.js project on Cloud9 IDE!
+# Node Chat Server
 
-This chat example showcases how to use `socket.io` with a static `express` server.
+Projeto desenvolvido para servir a aplicação [Ionic Chat](https://github.com/plinionaves/ionic-chat).
 
-## Running the server
+Este projeto utiliza o [socket.io](http://socket.io/) para trabalhar com WebSockets para uma comunicação real-time entre as aplicações cliente e servidor.
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
+Como esta aplicação é o servidor, ela precisará estar acessível por uma url, recomendo criar uma conta na plataforma gratuita [Cloud 9](https://c9.io) e criar um novo `workspace` clonando este repositório.
+
+## Instalando dependências
+
+Para instalar as dependências da aplicação, execute o comando:
+
+```bash
+npm install
+```
+
+## Executando o servidor
+
+1) Abra um terminal e execute o comando abaixo:
+
+```bash
+npm start
+```
 
 2) Alternatively you can launch the app from the Terminal:
 
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+```bash
+node server.js
+```
