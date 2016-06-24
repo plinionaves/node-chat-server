@@ -31,7 +31,7 @@ npm install
 npm start
 ```
 
-2) Alternatively you can launch the app from the Terminal:
+2) Alternativamente você pode executar a aplicação com este comando:
 
 ```bash
 node server.js
