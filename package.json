@@ -1,7 +1,7 @@
 {
-  "name": "dynamic-app-test",
+  "name": "node-chat-server",
   "version": "0.0.1",
-  "description": "API de teste para servir recursos",
+  "description": "Aplicação back-end para servir o projeto ionic-chat",
   "main": "server.js",
   "repository": "",
   "author": "Plínio Naves <pliniopjn@hotmail.com>",
