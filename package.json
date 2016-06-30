@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Aplicação back-end para servir o projeto ionic-chat",
   "main": "server.js",
-  "repository": "",
+  "repository": "https://github.com/plinionaves/node-chat-server",
   "author": "Plínio Naves <pliniopjn@hotmail.com>",
   "scripts": {
     "start": "nodemon server"
